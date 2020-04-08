@@ -1,0 +1,55 @@
+{
+    "plugins":[
+        "-lunr",
+        "-search",
+        "-highlight",
+        "-sharing",
+        "edit-link",
+        "forkmegithub",
+        "search-plus",
+        "sharing-plus",
+        "anchor-navigation-ex",
+        "github-buttons@2.1.0",
+        "splitter",
+        "image-captions-extended",
+        "bsz",
+        "fancybox",
+        "katex",
+        "image-wrapper",
+        "gtalk",
+        "expandable-chapters",
+        "chapter-fold",
+        "advanced-emoji"
+    ],
+    "pluginsConfig": {
+        "github": {
+            "url": "https://github.com/litiegen"
+        },
+        "edit-link": {
+            "base": "https://github.com/litiegen/colorUI/",
+            "label": "编辑本页"
+          },
+          "sharing": {
+            "douban": true,
+            "facebook": false,
+            "google": false,
+            "hatenaBookmark": false,
+            "instapaper": false,
+            "line": false,
+            "linkedin": false,
+            "messenger": false,
+            "pocket": false,
+            "qq": true,
+            "qzone": true,
+            "stumbleupon": false,
+            "twitter": false,
+            "viber": false,
+            "vk": false,
+            "weibo": true,
+            "whatsapp": false,
+            "all": [
+              "weibo", "douban", "qzone", "qq"
+            ]
+          }
+    }
+}
