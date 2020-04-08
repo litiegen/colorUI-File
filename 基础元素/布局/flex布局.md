@@ -1,5 +1,5 @@
 ![Image text](../../img/flex1.png)
-```javascript
+```html
 <view class="cu-bar bg-white solid-bottom margin-top">
     <view class="action">
         <text class="cuIcon-title text-blue"></text>固定尺寸
@@ -20,7 +20,7 @@
 ```
 ---
 ![Image text](../../img/flex2.png)
-```jsx
+```html
 <view class="cu-bar bg-white  margin-top solid-bottom">
     <view class="action">
         <text class="cuIcon-title text-blue">比例布局</text>
@@ -44,7 +44,7 @@
 ```
 ---
 ![Image text](../../img/flex3.png)
-```jsx
+```html
 <view class="cu-bar bg-white  margin-top solid-bottom">
     <view class="action">
         <text class="cuIcon-title text-blue"></text>水平对齐(justify)
@@ -75,7 +75,7 @@
 ```
 ---
 ![Image text](../../img/flex4.png)
-```jsx
+```html
 <view class="cu-bar bg-white  margin-top solid-bottom">
     <view class="action">
         <text class="cuIcon-title text-blue"></text>垂直对齐(align)

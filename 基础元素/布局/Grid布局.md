@@ -1,6 +1,6 @@
 ![Image text](../../img/grid1.png)
 ![Image text](../../img/grid2.png)
-```jsx
+```html
 <view class="cu-bar bg-white  margin-top solid-bottom">
     <view class="action">
         <text class="cuIcon-title text-blue"></text>等分列
