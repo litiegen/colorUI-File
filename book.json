@@ -1,32 +1,31 @@
 {
     "plugins":[
-        "-lunr",
-        "-search",
-        "-highlight",
-        "-sharing",
-        "edit-link",
-        "forkmegithub",
-        "search-plus",
-        "sharing-plus",
-        "anchor-navigation-ex",
-        "github-buttons@2.1.0",
-        "splitter",
-        "image-captions-extended",
-        "bsz",
-        "fancybox",
-        "katex",
-        "image-wrapper",
-        "gtalk",
-        "expandable-chapters",
-        "chapter-fold",
-        "advanced-emoji"
+      "splitter",
+      "expandable-chapters",
+      "code",
+      "github",
+      "edit-link",
+      "sharing",
+      "tbfed-pagefooter",
+      "prism", 
+      "-highlight",
+      "-lunr",
+      "back-to-top-button"
     ],
     "pluginsConfig": {
+      "prism": {
+        "css": [
+            "prismjs/themes/prism-okaidia.css"
+        ],
+        "lang": {
+            "flow": "typescript"
+        }
+    },
         "github": {
             "url": "https://github.com/litiegen"
         },
         "edit-link": {
-            "base": "https://github.com/litiegen/colorUI/",
+            "base": "https://github.com/litiegen/colorUI-File/",
             "label": "编辑本页"
           },
           "sharing": {
@@ -50,6 +49,11 @@
             "all": [
               "weibo", "douban", "qzone", "qq"
             ]
-          }
+          },
+          "tbfed-pagefooter": {
+            "copyright":"Copyright &copy litiegen 2020",
+            "modify_label": "本书发布时间：",
+            "modify_format": "2020-04-08"
+        }
     }
 }
